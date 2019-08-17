@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9502307E34000C4DF1B /* AppDelegate.m */; };
+		2BFDC9542307E34000C4DF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9532307E34000C4DF1B /* ViewController.m */; };
+		2BFDC9572307E34000C4DF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC9552307E34000C4DF1B /* Main.storyboard */; };
+		2BFDC9592307E34100C4DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC9582307E34100C4DF1B /* Assets.xcassets */; };
+		2BFDC95C2307E34100C4DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC95A2307E34100C4DF1B /* LaunchScreen.storyboard */; };
+		2BFDC95F2307E34100C4DF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC95E2307E34100C4DF1B /* main.m */; };
+		2BFDC96B23081AC200C4DF1B /* CommonInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC96A23081AC200C4DF1B /* CommonInterface.m */; };
+		2BFDC96E23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */; };
+		2BFDC97123081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97023081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m */; };
+		2BFDC97423081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */; };
+		2BFDC97723081D7700C4DF1B /* NSString+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */; };
+		2BFDC9A62308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */; };
+		2BFDC9A92308342E00C4DF1B /* UIButton+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */; };
+		2BFDC9AC230834B100C4DF1B /* UIImage+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9AB230834B100C4DF1B /* UIImage+LYCocoaDevKit.m */; };
+		2BFDC9AF2308352600C4DF1B /* UIColor+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9AE2308352600C4DF1B /* UIColor+LYCocoaDevKit.m */; };
+		2BFDC9B22308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9B12308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m */; };
+		2BFDC9B5230836B900C4DF1B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9B4230836B900C4DF1B /* KeychainItemWrapper.m */; };
+		2BFDC9B82308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9B72308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m */; };
+		2BFDC9BB2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */; };
+		B664C3C29F6C5B86A82E0553 /* libPods-LYCocoaDevKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BFDC94C2307E34000C4DF1B /* LYCocoaDevKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCocoaDevKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFDC94F2307E34000C4DF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BFDC9502307E34000C4DF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BFDC9522307E34000C4DF1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BFDC9532307E34000C4DF1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BFDC9562307E34000C4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BFDC9582307E34100C4DF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BFDC95B2307E34100C4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BFDC95D2307E34100C4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFDC95E2307E34100C4DF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BFDC96923081AC200C4DF1B /* CommonInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonInterface.h; sourceTree = "<group>"; };
+		2BFDC96A23081AC200C4DF1B /* CommonInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonInterface.m; sourceTree = "<group>"; };
+		2BFDC96C23081B7D00C4DF1B /* NSData+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC96F23081C4D00C4DF1B /* NSDate+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC97023081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC97223081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC97523081D7700C4DF1B /* NSString+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9A42308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9A72308342E00C4DF1B /* UIButton+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9AA230834B100C4DF1B /* UIImage+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9AB230834B100C4DF1B /* UIImage+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9AD2308352600C4DF1B /* UIColor+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9AE2308352600C4DF1B /* UIColor+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9B02308366B00C4DF1B /* UIDevice+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9B12308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9B3230836B900C4DF1B /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		2BFDC9B4230836B900C4DF1B /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		2BFDC9B62308371F00C4DF1B /* UIScreen+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9B72308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9B92308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LYCocoaDevKit.m"; sourceTree = "<group>"; };
+		2BFDC9BC230837CB00C4DF1B /* LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCocoaDevKit.h; sourceTree = "<group>"; };
+		6B8CCD6B917FE217B6450029 /* Pods-LYCocoaDevKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCocoaDevKit.debug.xcconfig"; path = "Target Support Files/Pods-LYCocoaDevKit/Pods-LYCocoaDevKit.debug.xcconfig"; sourceTree = "<group>"; };
+		81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYCocoaDevKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F56502E30FE3AA7B4BE96D6 /* Pods-LYCocoaDevKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCocoaDevKit.release.xcconfig"; path = "Target Support Files/Pods-LYCocoaDevKit/Pods-LYCocoaDevKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BFDC9492307E34000C4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664C3C29F6C5B86A82E0553 /* libPods-LYCocoaDevKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BFDC9432307E34000C4DF1B = {
+			isa = PBXGroup;
+			children = (
+				2BFDC94E2307E34000C4DF1B /* LYCocoaDevKit */,
+				2BFDC94D2307E34000C4DF1B /* Products */,
+				4913874FC49BD127E48E384F /* Pods */,
+				5CA5F956122C29C4459D414B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BFDC94D2307E34000C4DF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDC94C2307E34000C4DF1B /* LYCocoaDevKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFDC94E2307E34000C4DF1B /* LYCocoaDevKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDC9652307E36D00C4DF1B /* LYCocoaDevKit */,
+				2BFDC94F2307E34000C4DF1B /* AppDelegate.h */,
+				2BFDC9502307E34000C4DF1B /* AppDelegate.m */,
+				2BFDC9522307E34000C4DF1B /* ViewController.h */,
+				2BFDC9532307E34000C4DF1B /* ViewController.m */,
+				2BFDC9552307E34000C4DF1B /* Main.storyboard */,
+				2BFDC9582307E34100C4DF1B /* Assets.xcassets */,
+				2BFDC95A2307E34100C4DF1B /* LaunchScreen.storyboard */,
+				2BFDC95D2307E34100C4DF1B /* Info.plist */,
+				2BFDC95E2307E34100C4DF1B /* main.m */,
+			);
+			path = LYCocoaDevKit;
+			sourceTree = "<group>";
+		};
+		2BFDC9652307E36D00C4DF1B /* LYCocoaDevKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDC96923081AC200C4DF1B /* CommonInterface.h */,
+				2BFDC96A23081AC200C4DF1B /* CommonInterface.m */,
+				2BFDC96C23081B7D00C4DF1B /* NSData+LYCocoaDevKit.h */,
+				2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */,
+				2BFDC96F23081C4D00C4DF1B /* NSDate+LYCocoaDevKit.h */,
+				2BFDC97023081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m */,
+				2BFDC97223081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.h */,
+				2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */,
+				2BFDC97523081D7700C4DF1B /* NSString+LYCocoaDevKit.h */,
+				2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */,
+				2BFDC9A42308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.h */,
+				2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */,
+				2BFDC9A72308342E00C4DF1B /* UIButton+LYCocoaDevKit.h */,
+				2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */,
+				2BFDC9AA230834B100C4DF1B /* UIImage+LYCocoaDevKit.h */,
+				2BFDC9AB230834B100C4DF1B /* UIImage+LYCocoaDevKit.m */,
+				2BFDC9AD2308352600C4DF1B /* UIColor+LYCocoaDevKit.h */,
+				2BFDC9AE2308352600C4DF1B /* UIColor+LYCocoaDevKit.m */,
+				2BFDC9B02308366B00C4DF1B /* UIDevice+LYCocoaDevKit.h */,
+				2BFDC9B12308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m */,
+				2BFDC9B3230836B900C4DF1B /* KeychainItemWrapper.h */,
+				2BFDC9B4230836B900C4DF1B /* KeychainItemWrapper.m */,
+				2BFDC9B62308371F00C4DF1B /* UIScreen+LYCocoaDevKit.h */,
+				2BFDC9B72308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m */,
+				2BFDC9B92308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.h */,
+				2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */,
+				2BFDC9BC230837CB00C4DF1B /* LYCocoaDevKit.h */,
+			);
+			path = LYCocoaDevKit;
+			sourceTree = "<group>";
+		};
+		4913874FC49BD127E48E384F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B8CCD6B917FE217B6450029 /* Pods-LYCocoaDevKit.debug.xcconfig */,
+				9F56502E30FE3AA7B4BE96D6 /* Pods-LYCocoaDevKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CA5F956122C29C4459D414B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BFDC94B2307E34000C4DF1B /* LYCocoaDevKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFDC9622307E34100C4DF1B /* Build configuration list for PBXNativeTarget "LYCocoaDevKit" */;
+			buildPhases = (
+				C857799184C1D5C8A734C50A /* [CP] Check Pods Manifest.lock */,
+				2BFDC9482307E34000C4DF1B /* Sources */,
+				2BFDC9492307E34000C4DF1B /* Frameworks */,
+				2BFDC94A2307E34000C4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYCocoaDevKit;
+			productName = LYCocoaDevKit;
+			productReference = 2BFDC94C2307E34000C4DF1B /* LYCocoaDevKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BFDC9442307E34000C4DF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = zhangliyong;
+				TargetAttributes = {
+					2BFDC94B2307E34000C4DF1B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2BFDC9472307E34000C4DF1B /* Build configuration list for PBXProject "LYCocoaDevKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BFDC9432307E34000C4DF1B;
+			productRefGroup = 2BFDC94D2307E34000C4DF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BFDC94B2307E34000C4DF1B /* LYCocoaDevKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFDC94A2307E34000C4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFDC95C2307E34100C4DF1B /* LaunchScreen.storyboard in Resources */,
+				2BFDC9592307E34100C4DF1B /* Assets.xcassets in Resources */,
+				2BFDC9572307E34000C4DF1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C857799184C1D5C8A734C50A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYCocoaDevKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BFDC9482307E34000C4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFDC9542307E34000C4DF1B /* ViewController.m in Sources */,
+				2BFDC9B82308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m in Sources */,
+				2BFDC96E23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m in Sources */,
+				2BFDC97123081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m in Sources */,
+				2BFDC9A92308342E00C4DF1B /* UIButton+LYCocoaDevKit.m in Sources */,
+				2BFDC95F2307E34100C4DF1B /* main.m in Sources */,
+				2BFDC96B23081AC200C4DF1B /* CommonInterface.m in Sources */,
+				2BFDC9BB2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m in Sources */,
+				2BFDC9B5230836B900C4DF1B /* KeychainItemWrapper.m in Sources */,
+				2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */,
+				2BFDC97423081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m in Sources */,
+				2BFDC9A62308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m in Sources */,
+				2BFDC9AC230834B100C4DF1B /* UIImage+LYCocoaDevKit.m in Sources */,
+				2BFDC97723081D7700C4DF1B /* NSString+LYCocoaDevKit.m in Sources */,
+				2BFDC9AF2308352600C4DF1B /* UIColor+LYCocoaDevKit.m in Sources */,
+				2BFDC9B22308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BFDC9552307E34000C4DF1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFDC9562307E34000C4DF1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BFDC95A2307E34100C4DF1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFDC95B2307E34100C4DF1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BFDC9602307E34100C4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BFDC9612307E34100C4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BFDC9632307E34100C4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8CCD6B917FE217B6450029 /* Pods-LYCocoaDevKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JSZURUYS;
+				INFOPLIST_FILE = LYCocoaDevKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.liyong.LYCocoaDevKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BFDC9642307E34100C4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F56502E30FE3AA7B4BE96D6 /* Pods-LYCocoaDevKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JSZURUYS;
+				INFOPLIST_FILE = LYCocoaDevKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.liyong.LYCocoaDevKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFDC9472307E34000C4DF1B /* Build configuration list for PBXProject "LYCocoaDevKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFDC9602307E34100C4DF1B /* Debug */,
+				2BFDC9612307E34100C4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFDC9622307E34100C4DF1B /* Build configuration list for PBXNativeTarget "LYCocoaDevKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFDC9632307E34100C4DF1B /* Debug */,
+				2BFDC9642307E34100C4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BFDC9442307E34000C4DF1B /* Project object */;
+}
