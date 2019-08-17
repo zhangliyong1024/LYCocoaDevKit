@@ -9,6 +9,7 @@
 #import "UIBarButtonItem+LYCocoaDevKit.h"
 #import <objc/runtime.h>
 #import <Masonry.h>
+#import <Masonry/Masonry.h>
 
 NSString const * UIBarButtonItem_badgeLabel_key;
 NSString const * UIBarButtonItem_badgeDot_key;
