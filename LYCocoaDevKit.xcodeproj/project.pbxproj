@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4A3B1F230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */; };
 		2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9502307E34000C4DF1B /* AppDelegate.m */; };
 		2BFDC9542307E34000C4DF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9532307E34000C4DF1B /* ViewController.m */; };
 		2BFDC9572307E34000C4DF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC9552307E34000C4DF1B /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B4A3B1D230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC94C2307E34000C4DF1B /* LYCocoaDevKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCocoaDevKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFDC94F2307E34000C4DF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BFDC9502307E34000C4DF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				2BFDC9B72308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m */,
 				2BFDC9B92308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.h */,
 				2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */,
+				2B4A3B1D230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.h */,
+				2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */,
 				2BFDC9BC230837CB00C4DF1B /* LYCocoaDevKit.h */,
 			);
 			path = LYCocoaDevKit;
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4A3B1F230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m in Sources */,
 				2BFDC9542307E34000C4DF1B /* ViewController.m in Sources */,
 				2BFDC9B82308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m in Sources */,
 				2BFDC96E23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m in Sources */,
