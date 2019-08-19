@@ -21,5 +21,6 @@
 #import "UIDevice+LYCocoaDevKit.h"
 #import "UIScreen+LYCocoaDevKit.h"
 #import "UITableViewCell+LYCocoaDevKit.h"
+#import "UICollectionViewCell+LYCocoaDevKit.h"
 
 #endif /* LYCocoaDevKit_h */
