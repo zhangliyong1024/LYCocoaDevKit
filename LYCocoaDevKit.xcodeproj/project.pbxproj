@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3441D9234C2BD60067B200 /* UIView+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3441D8234C2BD60067B200 /* UIView+LYCocoaDevKit.m */; };
 		2B4A3B1F230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */; };
 		2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9502307E34000C4DF1B /* AppDelegate.m */; };
 		2BFDC9542307E34000C4DF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9532307E34000C4DF1B /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3441D7234C2BD60067B200 /* UIView+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCocoaDevKit.h"; sourceTree = "<group>"; };
+		2B3441D8234C2BD60067B200 /* UIView+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2B4A3B1D230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+LYCocoaDevKit.h"; sourceTree = "<group>"; };
 		2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC94C2307E34000C4DF1B /* LYCocoaDevKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCocoaDevKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +157,8 @@
 				2B4A3B1D230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.h */,
 				2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */,
 				2BFDC9BC230837CB00C4DF1B /* LYCocoaDevKit.h */,
+				2B3441D7234C2BD60067B200 /* UIView+LYCocoaDevKit.h */,
+				2B3441D8234C2BD60067B200 /* UIView+LYCocoaDevKit.m */,
 			);
 			path = LYCocoaDevKit;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				2BFDC9AC230834B100C4DF1B /* UIImage+LYCocoaDevKit.m in Sources */,
 				2BFDC97723081D7700C4DF1B /* NSString+LYCocoaDevKit.m in Sources */,
 				2BFDC9AF2308352600C4DF1B /* UIColor+LYCocoaDevKit.m in Sources */,
+				2B3441D9234C2BD60067B200 /* UIView+LYCocoaDevKit.m in Sources */,
 				2BFDC9B22308366B00C4DF1B /* UIDevice+LYCocoaDevKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
