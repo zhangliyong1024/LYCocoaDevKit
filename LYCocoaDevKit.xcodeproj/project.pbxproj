@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4AA4E58B54B0A39EC6896C /* libPods-LYCocoaDevKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164A6E8A3C56C32E598BDD59 /* libPods-LYCocoaDevKit.a */; };
 		2B3441D9234C2BD60067B200 /* UIView+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3441D8234C2BD60067B200 /* UIView+LYCocoaDevKit.m */; };
 		2B4A3B1F230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3B1E230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.m */; };
 		2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9502307E34000C4DF1B /* AppDelegate.m */; };
@@ -20,7 +21,6 @@
 		2BFDC97123081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97023081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m */; };
 		2BFDC97423081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */; };
 		2BFDC97723081D7700C4DF1B /* NSString+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */; };
-		2BFDC9A62308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */; };
 		2BFDC9A92308342E00C4DF1B /* UIButton+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */; };
 		2BFDC9AC230834B100C4DF1B /* UIImage+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9AB230834B100C4DF1B /* UIImage+LYCocoaDevKit.m */; };
 		2BFDC9AF2308352600C4DF1B /* UIColor+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9AE2308352600C4DF1B /* UIColor+LYCocoaDevKit.m */; };
@@ -28,10 +28,10 @@
 		2BFDC9B5230836B900C4DF1B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9B4230836B900C4DF1B /* KeychainItemWrapper.m */; };
 		2BFDC9B82308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9B72308371F00C4DF1B /* UIScreen+LYCocoaDevKit.m */; };
 		2BFDC9BB2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */; };
-		B664C3C29F6C5B86A82E0553 /* libPods-LYCocoaDevKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		164A6E8A3C56C32E598BDD59 /* libPods-LYCocoaDevKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYCocoaDevKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3441D7234C2BD60067B200 /* UIView+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCocoaDevKit.h"; sourceTree = "<group>"; };
 		2B3441D8234C2BD60067B200 /* UIView+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2B4A3B1D230A5DEE0060752E /* UICollectionViewCell+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+LYCocoaDevKit.h"; sourceTree = "<group>"; };
@@ -56,8 +56,6 @@
 		2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC97523081D7700C4DF1B /* NSString+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LYCocoaDevKit.h"; sourceTree = "<group>"; };
 		2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYCocoaDevKit.m"; sourceTree = "<group>"; };
-		2BFDC9A42308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LYCocoaDevKit.h"; sourceTree = "<group>"; };
-		2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC9A72308342E00C4DF1B /* UIButton+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+LYCocoaDevKit.h"; sourceTree = "<group>"; };
 		2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC9AA230834B100C4DF1B /* UIImage+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYCocoaDevKit.h"; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 		2BFDC9BA2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC9BC230837CB00C4DF1B /* LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCocoaDevKit.h; sourceTree = "<group>"; };
 		6B8CCD6B917FE217B6450029 /* Pods-LYCocoaDevKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCocoaDevKit.debug.xcconfig"; path = "Target Support Files/Pods-LYCocoaDevKit/Pods-LYCocoaDevKit.debug.xcconfig"; sourceTree = "<group>"; };
-		81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYCocoaDevKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F56502E30FE3AA7B4BE96D6 /* Pods-LYCocoaDevKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCocoaDevKit.release.xcconfig"; path = "Target Support Files/Pods-LYCocoaDevKit/Pods-LYCocoaDevKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B664C3C29F6C5B86A82E0553 /* libPods-LYCocoaDevKit.a in Frameworks */,
+				1A4AA4E58B54B0A39EC6896C /* libPods-LYCocoaDevKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +135,6 @@
 				2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */,
 				2BFDC97523081D7700C4DF1B /* NSString+LYCocoaDevKit.h */,
 				2BFDC97623081D7700C4DF1B /* NSString+LYCocoaDevKit.m */,
-				2BFDC9A42308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.h */,
-				2BFDC9A52308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m */,
 				2BFDC9A72308342E00C4DF1B /* UIButton+LYCocoaDevKit.h */,
 				2BFDC9A82308342E00C4DF1B /* UIButton+LYCocoaDevKit.m */,
 				2BFDC9AA230834B100C4DF1B /* UIImage+LYCocoaDevKit.h */,
@@ -175,7 +170,7 @@
 		5CA5F956122C29C4459D414B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81F9C4ABAD27DE67890EE275 /* libPods-LYCocoaDevKit.a */,
+				164A6E8A3C56C32E598BDD59 /* libPods-LYCocoaDevKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,7 +283,6 @@
 				2BFDC9B5230836B900C4DF1B /* KeychainItemWrapper.m in Sources */,
 				2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */,
 				2BFDC97423081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m in Sources */,
-				2BFDC9A62308312300C4DF1B /* UIBarButtonItem+LYCocoaDevKit.m in Sources */,
 				2BFDC9AC230834B100C4DF1B /* UIImage+LYCocoaDevKit.m in Sources */,
 				2BFDC97723081D7700C4DF1B /* NSString+LYCocoaDevKit.m in Sources */,
 				2BFDC9AF2308352600C4DF1B /* UIColor+LYCocoaDevKit.m in Sources */,

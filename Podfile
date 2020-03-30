@@ -3,7 +3,6 @@ platform :ios, '9.0'
 
 target 'LYCocoaDevKit' do
   pod 'AFNetworking'
-  pod 'Masonry'
   pod 'SDWebImage'
   pod 'NYXImagesKit'
 end

@@ -9,4 +9,11 @@ s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/zhangliyong1024/LYCocoaDevKit.git', :tag => s.version}
 s.source_files = 'LYCocoaDevKit/LYCocoaDevKit/**/*.{h,m}'
 s.requires_arc = true
+
+s.dependency 'SDWebImage'
+s.dependency 'Masonry'
+s.dependency 'AFNetworking'
+s.dependency 'NYXImagesKit'
+
 end
+
