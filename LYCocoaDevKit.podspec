@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'LYCocoaDevKit'
-s.version      = '1.0.1'
+s.version      = '1.0.3'
 s.summary      = 'awesome develop kit for cocoa coding !'
 s.homepage     = 'https://github.com/zhangliyong1024/LYCocoaDevKit'
 s.license      = 'MIT'
@@ -11,8 +11,6 @@ s.source_files = 'LYCocoaDevKit/LYCocoaDevKit/**/*.{h,m}'
 s.requires_arc = true
 
 s.dependency 'SDWebImage'
-s.dependency 'Masonry'
-s.dependency 'AFNetworking'
 s.dependency 'NYXImagesKit'
 
 end

@@ -2,7 +2,6 @@
 platform :ios, '9.0'
 
 target 'LYCocoaDevKit' do
-  pod 'AFNetworking'
   pod 'SDWebImage'
   pod 'NYXImagesKit'
 end

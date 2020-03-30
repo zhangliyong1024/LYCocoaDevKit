@@ -16,7 +16,6 @@
 		2BFDC9592307E34100C4DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC9582307E34100C4DF1B /* Assets.xcassets */; };
 		2BFDC95C2307E34100C4DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFDC95A2307E34100C4DF1B /* LaunchScreen.storyboard */; };
 		2BFDC95F2307E34100C4DF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC95E2307E34100C4DF1B /* main.m */; };
-		2BFDC96B23081AC200C4DF1B /* CommonInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC96A23081AC200C4DF1B /* CommonInterface.m */; };
 		2BFDC96E23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */; };
 		2BFDC97123081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97023081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m */; };
 		2BFDC97423081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFDC97323081CEB00C4DF1B /* NSDateFormatter+LYCocoaDevKit.m */; };
@@ -46,8 +45,6 @@
 		2BFDC95B2307E34100C4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFDC95D2307E34100C4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFDC95E2307E34100C4DF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BFDC96923081AC200C4DF1B /* CommonInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonInterface.h; sourceTree = "<group>"; };
-		2BFDC96A23081AC200C4DF1B /* CommonInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonInterface.m; sourceTree = "<group>"; };
 		2BFDC96C23081B7D00C4DF1B /* NSData+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+LYCocoaDevKit.h"; sourceTree = "<group>"; };
 		2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+LYCocoaDevKit.m"; sourceTree = "<group>"; };
 		2BFDC96F23081C4D00C4DF1B /* NSDate+LYCocoaDevKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYCocoaDevKit.h"; sourceTree = "<group>"; };
@@ -125,8 +122,6 @@
 		2BFDC9652307E36D00C4DF1B /* LYCocoaDevKit */ = {
 			isa = PBXGroup;
 			children = (
-				2BFDC96923081AC200C4DF1B /* CommonInterface.h */,
-				2BFDC96A23081AC200C4DF1B /* CommonInterface.m */,
 				2BFDC96C23081B7D00C4DF1B /* NSData+LYCocoaDevKit.h */,
 				2BFDC96D23081B7D00C4DF1B /* NSData+LYCocoaDevKit.m */,
 				2BFDC96F23081C4D00C4DF1B /* NSDate+LYCocoaDevKit.h */,
@@ -278,7 +273,6 @@
 				2BFDC97123081C4D00C4DF1B /* NSDate+LYCocoaDevKit.m in Sources */,
 				2BFDC9A92308342E00C4DF1B /* UIButton+LYCocoaDevKit.m in Sources */,
 				2BFDC95F2307E34100C4DF1B /* main.m in Sources */,
-				2BFDC96B23081AC200C4DF1B /* CommonInterface.m in Sources */,
 				2BFDC9BB2308376A00C4DF1B /* UITableViewCell+LYCocoaDevKit.m in Sources */,
 				2BFDC9B5230836B900C4DF1B /* KeychainItemWrapper.m in Sources */,
 				2BFDC9512307E34000C4DF1B /* AppDelegate.m in Sources */,
