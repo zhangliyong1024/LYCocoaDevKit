@@ -119,87 +119,88 @@
                                     success:(void (^)(NSURLSessionDataTask * _Nonnull, NSDictionary * _Nullable))success
                                     failure:(void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure {
     
-    [headers enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [self.requestSerializer setValue:obj forHTTPHeaderField:key];
-    }];
-    
     [self.requestSerializer setValue:[NSString stringWithFormat:@"%0.3f", [NSDate date].timeIntervalSince1970] forHTTPHeaderField:@"request-time"];
     
     if (method == HttpPost) {
         if (constructingBlock) {
             return [self POST:urlString
                    parameters:parameters
+                      headers:headers
     constructingBodyWithBlock:constructingBlock
                      progress:progress
                       success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                          if (success) {
-                              success(task, responseObject);
-                          }
-                      }
+                if (success) {
+                    success(task, responseObject);
+                }
+            }
                       failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                          if (failure) {
-                              failure(task, error);
-                          }
-                      }];
+                if (failure) {
+                    failure(task, error);
+                }
+            }];
         }
         else {
             return [self POST:urlString
                    parameters:parameters
+                      headers:headers
                      progress:progress
                       success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                          if (success) {
-                              success(task, responseObject);
-                          }
-                      }
+                if (success) {
+                    success(task, responseObject);
+                }
+            }
                       failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                          if (failure) {
-                              failure(task, error);
-                          }
-                      }];
+                if (failure) {
+                    failure(task, error);
+                }
+            }];
         }
     }
     else if (method == HttpPut) {
         return [self PUT:urlString
               parameters:parameters
+                 headers:headers
                  success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                     if (success) {
-                         success(task, responseObject);
-                     }
-                 }
+            if (success) {
+                success(task, responseObject);
+            }
+        }
                  failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                     if (failure) {
-                         failure(task, error);
-                     }
-                 }];
+            if (failure) {
+                failure(task, error);
+            }
+        }];
     }
     else if (method == HttpDelete) {
         return [self DELETE:urlString
                  parameters:parameters
+                    headers:headers
                     success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                        if (success) {
-                            success(task, responseObject);
-                        }
-                    }
+            if (success) {
+                success(task, responseObject);
+            }
+        }
                     failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                        if (failure) {
-                            failure(task, error);
-                        }
-                    }];
+            if (failure) {
+                failure(task, error);
+            }
+        }];
     }
     else if (method == HttpGet) {
         return [self GET:urlString
               parameters:parameters
+                 headers:headers
                 progress:progress
                  success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                     if (success) {
-                         success(task, responseObject);
-                     }
-                 }
+            if (success) {
+                success(task, responseObject);
+            }
+        }
                  failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                     if (failure) {
-                         failure(task, error);
-                     }
-                 }];
+            if (failure) {
+                failure(task, error);
+            }
+        }];
     }
     
     NSAssert(NO, @"method error");
